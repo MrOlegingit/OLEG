@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+let funnyGuy = {
+    firstName: "Conan",
+    lastname: "O brien",
+    getName: function () {
+        return "Name is: " + this.firstName + " " + this.lastname;
+    },
+    ///*printname: function () {
+      //  alert("write this");
+    //}*/
+
+//funnyGuy.getName();
+
+};
+alert(funnyGuy.getName());
+    </script>
+</body>
+</html>
